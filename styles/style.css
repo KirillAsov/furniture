@@ -1,0 +1,238 @@
+/*@font-face {
+    font-family: 'Monrope';
+    src: url(../fonts/Manrope-Regular.ttf);
+}*/
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Manrope';
+}
+.box_1 {
+    width: 1400px;
+   
+}
+.container {
+    width: 1150px;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.navigation {
+    display: flex;
+    font-size: 18px;
+    line-height: 25px;
+    color: #121212;
+}
+.navigation li a {
+    margin-left: 60px;
+    text-decoration: none;
+    color: #121212;
+}
+.navigation li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: gray;
+}
+.container>h1 {
+    font-size: 60px;
+    color: #121212;
+    margin-top: 70px;
+    
+}
+.foto_info {
+    width: 1150px;
+    height: 500px;
+    background-image:url(../resources/фон\ текс.png) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 30px;
+}
+.foto_info>p {
+    width: 430px;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 27px;  
+    letter-spacing: -0.03em;  
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.discribe_block>h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #121212;
+    margin-top: 150px;
+}
+.discribe_block>p {
+    width: 1048px;
+    font-size: 45px;
+    line-height: 61px;
+    letter-spacing: -0.03em;
+    color: #121212;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.service_btn {
+    width: 255px;
+    height: 67px;
+    background-color: #AD1818;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 27px;
+    padding: 20px 40px;
+    text-decoration: none;
+}
+.project_block {
+    margin-top: 190px;
+    margin-bottom: 150px;
+}
+.project_block>h2 {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.example {
+    margin-bottom: 90px;
+}
+.example>h3 {
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+a.details {
+    color: #AD1818;
+    font-size: 20px;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+}
+a.details:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.all_proj {
+    width: 1150px;
+    height: 153px;
+    color: #AD1818;
+    font-size: 30px;
+    border: 1px solid #AD1818;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    text-decoration: none; 
+}
+.all_proj:hover {
+    background-color: #AD1818;
+    color: #ffffff;
+    cursor: pointer;
+}
+.box_2 {
+    width: 1400px;
+    background-color: #121212;
+}
+.container_2 {
+    width: 1150px;
+    margin: 0 auto;
+}
+.services_block {
+    color: #ffffff;
+    padding: 150px 0;
+}
+.services_block>p {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 34px;
+}
+.service {
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+.service>h2 {
+    margin-top: 15px;
+}
+.box_3 {
+    width: 1400px;
+    height: 717px;
+    background-image: url(../resources/проект\ квартиры.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+.box_3>h2 {
+    color: #ffffff;
+    width: 443px;
+    font-size: 30px;
+    line-height: 41px;
+    margin: auto auto 60px 125px;
+}
+.box_4 {
+    width: 1400px;
+}
+.container_3 {
+    width: 1150px;
+    padding: 150px 0;
+    margin: 0 auto;
+    letter-spacing: -0.03em;
+}
+.container_3>p {
+    margin-top: 12px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.number, .mail {
+    font-size: 60px;
+    margin: 30px 0;
+}
+.mail:hover {
+    cursor: pointer;
+    color: gray;
+    text-decoration: underline;
+}
+.fa {
+    font-size: 24px;
+} 
+.futter {
+    height: 230px;
+    background-color: #121212;
+    color: #ffffff;     
+}
+.futter>p {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 87px;
+
+}
+.futter_inner {
+    display: flex;
+    justify-content: center;
+}
+.nav_end {
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+
+}
+.nav_end li a {
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+.nav_end li:hover {
+    cursor: pointer;
+    color: gray;
+    text-decoration: underline;
+}
